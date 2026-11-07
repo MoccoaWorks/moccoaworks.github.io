@@ -234,3 +234,9 @@ footer, .footer {
 }
 
 @media (max-width: 420px) { .home-card { grid-template-columns: 1fr; gap: 14px; } .card-icon { width: 58px; height: 58px; } }
+
+.app-title { display: flex; align-items: center; gap: 18px; margin-bottom: 20px; }
+.card .app-title { margin-bottom: 12px; }
+.app-title h1, .app-title h2 { margin: 0; }
+.app-icon { width: 72px; height: 72px; border-radius: 22.5%; box-shadow: 0 4px 12px rgba(87, 47, 19, .18); flex-shrink: 0; }
+.app-icon.small { width: 52px; height: 52px; }
